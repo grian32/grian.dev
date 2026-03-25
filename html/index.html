@@ -98,8 +98,8 @@
                 <h2 class="text-xl font-italic font-mono text-white border-b-2 border-slate-500 inline-block px-2">
                     My Projects
                 </h2>
-                <div class="grid grid-cols-2 mt-6">
-                    <article class="border-r border-slate-700 p-4">
+                <div class="flex flex-col md:grid md:grid-cols-2 mt-6">
+                    <article class="border-b md:border-r md:border-b-0 border-slate-700 p-4">
                         <a href="https://github.com/grian32/grpg">
                             <div style="width:100%;height:0;padding-bottom:86%;position:relative;margin-bottom:0.75rem;">
                                 <img src="static/grpg.png" alt="Screenshot of GRPG, an MMO Engine/Game written in Go" width="600" height="516" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:contain;object-position:top left;" />
@@ -108,7 +108,7 @@
                         <h3 class="text-lg font-bold font-mono text-white"><a href="https://github.com/grian32/grpg">GRPG</a></h3>
                         <p class="text-sm font-mono text-slate-400 mt-1">An MMO Engine/Game written in Go using Ebiten.</p>
                     </article>
-                    <article class="p-4">
+                    <article class="border-b md:border-b-0 border-slate-700 p-4">
                         <a href="https://github.com/grian32/grianlang3">
                             <div style="width:100%;height:0;padding-bottom:86%;position:relative;margin-bottom:0.75rem;">
                                 <img src="static/grianlang3.png" alt="Screenshot of grianlang3, an LLVM-based compiler for a C-style language" width="600" height="516" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:contain;object-position:top left;" />
@@ -117,9 +117,7 @@
                         <h3 class="text-lg font-bold font-mono text-white"><a href="https://github.com/grian32/grianlang3">grianlang3</a></h3>
                         <p class="text-sm font-mono text-slate-400 mt-1">An LLVM-based compiler for a C-style language.</p>
                     </article>
-                </div>
-                <div class="grid grid-cols-2">
-                    <article class="border-r border-t border-slate-700 p-4">
+                    <article class="border-b md:border-r md:border-b-0 md:border-t border-slate-700 p-4">
                         <a href="https://grian32.github.io/beta-mod/docs/intro/">
                             <div style="width:100%;height:0;padding-bottom:54%;position:relative;margin-bottom:0.75rem;">
                                 <img src="static/betamod.png" alt="Screenshot of Grian's Beta Expansion, a Minecraft b1.7.3 mod" width="600" height="324" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:contain;object-position:top left;" />
@@ -128,7 +126,7 @@
                         <h3 class="text-lg font-bold font-mono text-white"><a href="https://grian32.github.io/beta-mod/docs/intro/">Grian's Beta Expansion</a></h3>
                         <p class="text-sm font-mono text-slate-400 mt-1">A Minecraft b1.7.3 mod that expands various parts of the game</p>
                     </article>
-                    <article class="border-t border-slate-700 p-4">
+                    <article class="md:border-t border-slate-700 p-4">
                         <div style="width:100%;height:0;padding-bottom:54%;position:relative;margin-bottom:0.75rem;">
                             <img src="https://placehold.co/600x300/1e1b18/white?text=Coming+Soon" alt="Coming Soon" width="600" height="300" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:contain;object-position:top left;" />
                         </div>
